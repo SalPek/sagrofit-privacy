@@ -3,158 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SagroFit — Privacy Policy</title>
+  <title>SagroFit — Legal</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: #f5f5f5;
-      color: #111111;
-      line-height: 1.7;
-      padding: 0 16px 60px;
-    }
-
-    header {
-      background: #ffffff;
-      border-bottom: 1px solid #e5e5e5;
-      padding: 24px 16px 20px;
-      margin: 0 -16px 40px;
-      text-align: center;
-    }
-
-    .logo {
-      font-size: 22px;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      margin-bottom: 4px;
-    }
-
+    body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f5f5f5; color: #111111; line-height: 1.7; padding: 0 16px 60px; }
+    header { background: #ffffff; border-bottom: 1px solid #e5e5e5; padding: 24px 16px 20px; margin: 0 -16px 32px; text-align: center; }
+    .logo { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 4px; }
     .logo span { color: #3B4998; }
+    .logo-sub { font-size: 12px; color: #888888; }
+    .container { max-width: 680px; margin: 0 auto; }
 
-    .logo-sub {
-      font-size: 12px;
-      color: #888888;
-      font-weight: 400;
-    }
+    .lang-toggle { display: flex; gap: 8px; justify-content: center; margin-bottom: 28px; }
+    .lang-btn { padding: 6px 20px; border-radius: 20px; border: 1.5px solid #dddddd; background: #ffffff; font-size: 13px; font-weight: 600; color: #888888; cursor: pointer; }
+    .lang-btn.active { border-color: #3B4998; color: #3B4998; background: #eef0f9; }
 
-    .container {
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    .lang-toggle {
-      display: flex;
-      gap: 8px;
-      justify-content: center;
-      margin-bottom: 32px;
-    }
-
-    .lang-btn {
-      padding: 6px 20px;
-      border-radius: 20px;
-      border: 1.5px solid #dddddd;
-      background: #ffffff;
-      font-size: 13px;
-      font-weight: 600;
-      color: #888888;
-      cursor: pointer;
-      transition: all 0.15s;
-    }
-
-    .lang-btn.active {
-      border-color: #3B4998;
-      color: #3B4998;
-      background: #eef0f9;
-    }
+    .tab-bar { display: flex; gap: 0; margin-bottom: 28px; background: #ffffff; border-radius: 10px; overflow: hidden; border: 1px solid #e5e5e5; }
+    .tab-btn { flex: 1; padding: 11px 8px; border: none; background: transparent; font-size: 14px; font-weight: 600; color: #888888; cursor: pointer; }
+    .tab-btn.active { background: #3B4998; color: #ffffff; }
 
     .content { display: none; }
     .content.active { display: block; }
 
-    .updated {
-      font-size: 12px;
-      color: #aaaaaa;
-      margin-bottom: 28px;
-    }
+    .updated { font-size: 12px; color: #aaaaaa; margin-bottom: 24px; }
+    h1 { font-size: 26px; font-weight: 800; color: #111111; margin-bottom: 6px; letter-spacing: -0.5px; }
+    h2 { font-size: 13px; font-weight: 700; color: #3B4998; text-transform: uppercase; letter-spacing: 1px; margin: 28px 0 10px; }
+    p { font-size: 15px; color: #333333; margin-bottom: 12px; }
 
-    h1 {
-      font-size: 26px;
-      font-weight: 800;
-      color: #111111;
-      margin-bottom: 6px;
-      letter-spacing: -0.5px;
-    }
+    .highlight-box { background: #eef0f9; border-radius: 12px; padding: 18px 20px; margin: 20px 0 28px; }
+    .highlight-box p { font-size: 15px; font-weight: 600; color: #3B4998; margin: 0; text-align: center; }
 
-    h2 {
-      font-size: 14px;
-      font-weight: 700;
-      color: #3B4998;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin: 32px 0 12px;
-    }
+    .warning-box { background: #fffbeb; border-radius: 12px; padding: 18px 20px; margin: 20px 0; border-left: 4px solid #f59e0b; border-radius: 0; }
+    .warning-box p { font-size: 14px; color: #92400e; margin: 0; }
 
-    p {
-      font-size: 15px;
-      color: #333333;
-      margin-bottom: 14px;
-    }
+    .check-list { list-style: none; padding: 0; margin-bottom: 12px; }
+    .check-list li { font-size: 15px; color: #333333; padding: 5px 0 5px 26px; position: relative; }
+    .check-list li::before { content: '✓'; position: absolute; left: 0; color: #059669; font-weight: 700; }
 
-    .highlight-box {
-      background: #eef0f9;
-      border-radius: 12px;
-      padding: 20px 20px;
-      margin: 24px 0 32px;
-    }
-
-    .highlight-box p {
-      font-size: 15px;
-      font-weight: 600;
-      color: #3B4998;
-      margin: 0;
-      text-align: center;
-    }
-
-    .check-list {
-      list-style: none;
-      padding: 0;
-      margin-bottom: 14px;
-    }
-
-    .check-list li {
-      font-size: 15px;
-      color: #333333;
-      padding: 6px 0 6px 28px;
-      position: relative;
-    }
-
-    .check-list li::before {
-      content: '✓';
-      position: absolute;
-      left: 0;
-      color: #059669;
-      font-weight: 700;
-    }
-
-    .contact {
-      background: #ffffff;
-      border-radius: 12px;
-      border: 1px solid #e5e5e5;
-      padding: 20px;
-      margin-top: 32px;
-    }
-
+    .contact { background: #ffffff; border-radius: 12px; border: 1px solid #e5e5e5; padding: 18px; margin-top: 28px; }
     .contact p { margin: 0; font-size: 14px; }
-
     a { color: #3B4998; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    footer {
-      text-align: center;
-      margin-top: 48px;
-      font-size: 12px;
-      color: #aaaaaa;
-    }
+    footer { text-align: center; margin-top: 48px; font-size: 12px; color: #aaaaaa; }
   </style>
 </head>
 <body>
@@ -167,12 +55,95 @@
 <div class="container">
 
   <div class="lang-toggle">
-    <button class="lang-btn active" onclick="setLang('en')">English</button>
-    <button class="lang-btn" onclick="setLang('fi')">Suomi</button>
+    <button class="lang-btn active" onclick="setLang('en', event)">English</button>
+    <button class="lang-btn" onclick="setLang('fi', event)">Suomi</button>
   </div>
 
-  <!-- ENGLISH -->
-  <div class="content active" id="content-en">
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="setTab('tos', event)">Terms of Service</button>
+    <button class="tab-btn" onclick="setTab('pp', event)">Privacy Policy</button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- ENGLISH — TERMS OF SERVICE                                      -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="content active" id="en-tos">
+    <h1>Terms of Service</h1>
+    <p class="updated">Last updated: April 2026</p>
+
+    <div class="highlight-box">
+      <p>By using SagroFit, you agree to these terms.<br>
+      Please read them before using the app.</p>
+    </div>
+
+    <h2>1. About SagroFit</h2>
+    <p>SagroFit is a workout tracking app developed by Sagro Oy (Finland). The app helps you log workouts, track progress, and manage training programs. SagroFit is intended for users aged 13 and over. If you are under 18, you should use the app under the supervision of a parent or guardian.</p>
+
+    <h2>2. Health & Safety Disclaimer</h2>
+    <div class="warning-box">
+      <p><strong>Important:</strong> SagroFit is not a medical application and does not provide medical advice. Always consult a doctor or qualified healthcare professional before starting a new exercise program, especially if you have any health conditions, injuries, or concerns.</p>
+    </div>
+    <p>By using SagroFit, you acknowledge that:</p>
+    <ul class="check-list">
+      <li>Exercise involves inherent risks of injury</li>
+      <li>You participate in all activities at your own risk</li>
+      <li>SagroFit does not replace professional medical or fitness advice</li>
+      <li>You are responsible for choosing exercises appropriate for your fitness level</li>
+    </ul>
+
+    <h2>3. AI-Generated Content</h2>
+    <p>SagroFit includes ready-made training programs and, in future versions, AI-generated workout programs. These programs are generated algorithmically and are <strong>not</strong> designed by certified personal trainers or medical professionals.</p>
+    <p>AI-generated programs may contain errors or unsuitable recommendations. Sagro Oy accepts no responsibility for any injuries or health issues arising from following these programs. Use them at your own discretion and always adapt them to your personal fitness level and health situation.</p>
+
+    <h2>4. Imported Content & Program Library</h2>
+    <p>SagroFit allows you to import workout data and programs from third-party apps. Sagro Oy does not review imported content and accepts no responsibility for the accuracy, safety, or suitability of any imported programs or exercises.</p>
+    <p>The built-in program library contains ready-made training programs. These programs are general in nature and are not tailored to your individual health situation, fitness level, or goals. Use them at your own discretion.</p>
+    <p>You are solely responsible for verifying the correctness of any imported data before using it in your training.</p>
+
+    <h2>5. Not a Medical Device</h2>
+    <p>SagroFit is a general-purpose fitness tracking tool. It is not a regulated medical device and is not intended to diagnose, treat, cure, or prevent any medical condition.</p>
+
+    <h2>6. App Availability & Data Loss</h2>
+    <p>SagroFit is provided "as is" without warranties of any kind, whether express or implied. We do not guarantee uninterrupted availability or freedom from errors. We reserve the right to update, modify, or discontinue the app at any time without prior notice.</p>
+    <p>Since all data is stored locally on your device, Sagro Oy is not responsible for any loss of data caused by app deletion, device failure, or software errors. It is your responsibility to use the Export function to back up your data regularly.</p>
+
+    <h2>7. User Responsibility</h2>
+    <p>You are responsible for keeping your device secure and for all activity under your use of the app. You agree not to:</p>
+    <ul class="check-list" style="margin-bottom:12px;">
+      <li>Reverse engineer or attempt to extract the source code of the app</li>
+      <li>Use the app for any unlawful purposes</li>
+      <li>Use the app in a way that may harm yourself or others</li>
+    </ul>
+
+    <h2>8. Intellectual Property & License</h2>
+    <p>The SagroFit app, including its code, design, exercise library, and built-in content, is the property of Sagro Oy. You may not copy, reproduce, or distribute any part of the app for commercial purposes without prior written permission.</p>
+    <p>Sagro Oy grants you a limited, non-exclusive, non-transferable, revocable license to use the app for personal, non-commercial purposes only.</p>
+
+    <h2>9. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by applicable law, Sagro Oy shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from the use or inability to use the app, including but not limited to loss of data, health-related injuries, or device damage.</p>
+
+    <h2>10. Changes to These Terms</h2>
+    <p>We may update these terms from time to time. The date at the top of this page will reflect the most recent update. Continued use of the app after changes constitutes acceptance of the new terms.</p>
+
+    <h2>11. Governing Law</h2>
+    <p>These terms are governed by the laws of Finland. Any disputes arising from these terms shall be resolved in the courts of Finland.</p>
+    <p><em>Note: If you are a consumer residing in the EU, you may also be entitled to the protection of the mandatory consumer laws of your country of residence.</em></p>
+
+    <h2>12. Entire Agreement</h2>
+    <p>These terms constitute the entire agreement between you and Sagro Oy regarding the use of the app and supersede all prior agreements or understandings.</p>
+
+    <h2>13. Severability</h2>
+    <p>If any provision of these terms is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.</p>
+
+    <div class="contact">
+      <p>Questions? Contact us at <a href="mailto:support@sagrofit.com">support@sagrofit.com</a></p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- ENGLISH — PRIVACY POLICY                                        -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="content" id="en-pp">
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: April 2026</p>
 
@@ -182,7 +153,8 @@
     </div>
 
     <h2>What we collect</h2>
-    <p>We collect nothing. SagroFit is a fully offline app. No account is required, no data is sent to any server, and no analytics are collected.</p>
+    <p>We do not collect any data. We do not collect any personal data, identifiers, usage data, device information, or analytics data. SagroFit is a fully offline app. No account is required and no data is sent to any server.</p>
+    <p>Because we do not collect or process personal data, GDPR obligations are not applicable to Sagro Oy in relation to this app.</p>
 
     <h2>Your data stays on your device</h2>
     <ul class="check-list">
@@ -194,23 +166,105 @@
 
     <h2>Third-party services</h2>
     <p>The free version of SagroFit does not use any third-party analytics, advertising, or tracking services.</p>
+    <p>Please note that the app store through which you downloaded SagroFit (such as app stores or distribution platforms) may collect anonymous usage statistics and crash reports as part of their standard service. This data is collected by the platform, not by Sagro Oy. We do not control or have access to any data collected by third-party platforms. Please refer to the relevant platform's Privacy Policy for details.</p>
 
-    <h2>Data export</h2>
-    <p>You can export your own data at any time from Settings → Export. The exported file is saved to your device and is never transmitted to us or any third party.</p>
+    <h2>Data export & your responsibility</h2>
+    <p>You can export your own data at any time from Settings → Export. The exported file is saved to your device and is never transmitted to us or any third party. You are responsible for backing up your data. We are not responsible for any data loss resulting from app deletion, device failure, or other causes.</p>
+
+    <h2>Data retention & deletion</h2>
+    <p>All data created within the app is stored on your device's internal storage. This data is deleted if you uninstall the app or clear its data through your device settings. We have no way to recover or access your data once it has been deleted.</p>
 
     <h2>Children</h2>
-    <p>SagroFit does not knowingly collect any information from children under the age of 13. Since we collect no data at all, there is nothing to collect from anyone.</p>
+    <p>SagroFit is intended for users aged 13 and over. If you are under 18, you should use the app under the supervision of a parent or guardian. Since we collect no data at all, there is nothing to collect from anyone.</p>
 
     <h2>Changes to this policy</h2>
-    <p>If we update this policy, we will note the new date at the top of this page. Continued use of the app after any changes constitutes acceptance of the new policy.</p>
+    <p>If we update this policy, we will note the new date at the top of this page. If we introduce optional online features in the future, this policy will be updated accordingly before such features are made available.</p>
 
     <div class="contact">
       <p>Questions? Contact us at <a href="mailto:support@sagrofit.com">support@sagrofit.com</a></p>
     </div>
   </div>
 
-  <!-- SUOMI -->
-  <div class="content" id="content-fi">
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SUOMI — KÄYTTÖEHDOT                                             -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="content" id="fi-tos">
+    <h1>Käyttöehdot</h1>
+    <p class="updated">Päivitetty: huhtikuu 2026</p>
+
+    <div class="highlight-box">
+      <p>Käyttämällä SagroFittiä hyväksyt nämä ehdot.<br>
+      Lue ne ennen sovelluksen käyttöä.</p>
+    </div>
+
+    <h2>1. SagroFitistä</h2>
+    <p>SagroFit on treenienseuranta-sovellus, jonka on kehittänyt Sagro Oy (Suomi). Sovellus auttaa kirjaamaan harjoituksia, seuraamaan edistymistä ja hallitsemaan harjoitusohjelmia. SagroFit on tarkoitettu 13-vuotiaille ja sitä vanhemmille käyttäjille. Alle 18-vuotiaiden tulisi käyttää sovellusta vanhemman tai huoltajan valvonnassa.</p>
+
+    <h2>2. Terveys- ja turvallisuusvastuu</h2>
+    <div class="warning-box">
+      <p><strong>Tärkeää:</strong> SagroFit ei ole lääkinnällinen sovellus eikä tarjoa lääketieteellistä neuvontaa. Konsultoi aina lääkäriä tai muuta terveydenhuollon ammattilaista ennen uuden harjoitusohjelman aloittamista, erityisesti jos sinulla on terveydellisiä rajoitteita, vammoja tai muita huolenaiheita.</p>
+    </div>
+    <p>SagroFittiä käyttämällä hyväksyt, että:</p>
+    <ul class="check-list">
+      <li>Harjoitteluun liittyy loukkaantumisriski</li>
+      <li>Osallistut kaikkiin aktiviteetteihin omalla vastuullasi</li>
+      <li>SagroFit ei korvaa ammattilaisen lääketieteellistä tai liikunnallista neuvontaa</li>
+      <li>Olet itse vastuussa kuntotasollesi sopivien liikkeiden valinnasta</li>
+    </ul>
+
+    <h2>3. Tekoälyn generoimat sisällöt</h2>
+    <p>SagroFit sisältää valmiita harjoitusohjelmia ja tulevissa versioissa tekoälyn generoimia harjoitusohjelmia. Nämä ohjelmat on luotu algoritmisesti, eikä niitä ole laatinut sertifioitu personal trainer tai terveydenhuollon ammattilainen.</p>
+    <p>Tekoälyn generoimat ohjelmat saattavat sisältää virheitä tai sopimattomia suosituksia. Sagro Oy ei ole vastuussa loukkaantumisista tai terveysongelmista, jotka aiheutuvat näiden ohjelmien noudattamisesta. Käytä niitä harkiten ja mukauta ne aina oman kuntotasosi ja terveydentilasi mukaan.</p>
+
+    <h2>4. Tuotu sisältö ja ohjelmakirjasto</h2>
+    <p>SagroFit mahdollistaa harjoitusdatan ja ohjelmien tuomisen kolmannen osapuolen sovelluksista. Sagro Oy ei tarkista tuotua sisältöä eikä vastaa tuotujen ohjelmien tai liikkeiden oikeellisuudesta, turvallisuudesta tai soveltuvuudesta.</p>
+    <p>Sovelluksen sisäänrakennettu ohjelmakirjasto sisältää valmiita harjoitusohjelmia. Nämä ohjelmat ovat yleisluonteisia eivätkä ole räätälöityjä yksilölliseen terveystilanteeseesi, kuntotasoosi tai tavoitteisiisi. Käytä niitä harkiten.</p>
+    <p>Olet yksin vastuussa tuodun datan oikeellisuuden tarkistamisesta ennen sen käyttämistä harjoittelussasi.</p>
+
+    <h2>5. Ei lääkinnällinen laite</h2>
+    <p>SagroFit on yleiskäyttöinen treenienseurantatyökalu. Se ei ole säännelty lääkinnällinen laite eikä se ole tarkoitettu diagnosoimaan, hoitamaan tai ehkäisemään mitään sairaustilaa.</p>
+
+    <h2>6. Sovelluksen saatavuus ja datan häviäminen</h2>
+    <p>SagroFit tarjotaan "sellaisena kuin se on" ilman minkäänlaisia takuita, olivatpa ne nimenomaisia tai hiljaisia. Emme takaa keskeytymätöntä saatavuutta tai virheetöntä toimintaa. Pidätämme oikeuden päivittää, muokata tai lopettaa sovelluksen tarjoaminen milloin tahansa ilman ennakkoilmoitusta.</p>
+    <p>Koska kaikki data tallennetaan laitteellesi paikallisesti, Sagro Oy ei ole vastuussa datan häviämisestä sovelluksen poistamisen, laitteen hajoamisen tai ohjelmistovirheiden seurauksena. On sinun vastuullasi käyttää Vie-toimintoa datasi säännölliseen varmuuskopiointiin.</p>
+
+    <h2>7. Käyttäjän vastuu</h2>
+    <p>Olet vastuussa laitteesi tietoturvasta ja kaikesta sovelluksen käytöstäsi. Sitoudut olemaan:</p>
+    <ul class="check-list" style="margin-bottom:12px;">
+      <li>Purkamatta sovelluksen koodia tai yrittämättä hankkia sen lähdekoodia</li>
+      <li>Käyttämättä sovellusta laittomiin tarkoituksiin</li>
+      <li>Käyttämättä sovellusta tavalla, joka voisi vahingoittaa itseäsi tai muita</li>
+    </ul>
+
+    <h2>8. Immateriaalioikeudet ja käyttöoikeus</h2>
+    <p>SagroFit-sovellus, mukaan lukien sen koodi, ulkoasu, liikekirjasto ja sisäänrakennettu sisältö, on Sagro Oy:n omaisuutta. Et saa kopioida, toistaa tai jakaa sovelluksen mitään osaa kaupallisiin tarkoituksiin ilman kirjallista lupaa.</p>
+    <p>Sagro Oy myöntää sinulle rajoitetun, ei-yksinoikeudellisen, siirtämättömän ja peruutettavissa olevan käyttöoikeuden käyttää sovellusta henkilökohtaisiin, ei-kaupallisiin tarkoituksiin.</p>
+
+    <h2>9. Vastuunrajoitus</h2>
+    <p>Sovellettavan lain sallimassa laajuudessa Sagro Oy ei ole vastuussa mistään suorista, epäsuorista, satunnaisista tai välillisistä vahingoista, jotka aiheutuvat sovelluksen käytöstä tai käyttämättömyydestä, mukaan lukien datan häviäminen, terveydelliset vahingot tai laitevahingot.</p>
+
+    <h2>10. Muutokset näihin ehtoihin</h2>
+    <p>Voimme päivittää näitä ehtoja ajoittain. Sivun yläosassa oleva päivämäärä heijastaa viimeisintä päivitystä. Sovelluksen jatkuva käyttö muutosten jälkeen tarkoittaa uusien ehtojen hyväksymistä.</p>
+
+    <h2>11. Sovellettava laki</h2>
+    <p>Näihin ehtoihin sovelletaan Suomen lakia. Näistä ehdoista aiheutuvat riidat ratkaistaan Suomen tuomioistuimissa.</p>
+    <p><em>Huom: Jos olet EU-kuluttaja, sinulla saattaa olla myös oikeus asuinmaasi pakottavan kuluttajansuojalainsäädännön suojaan.</em></p>
+
+    <h2>12. Koko sopimus</h2>
+    <p>Nämä ehdot muodostavat koko sopimuksen sinun ja Sagro Oy:n välillä sovelluksen käyttöä koskien ja korvaavat kaikki aiemmat sopimukset tai ymmärrykset.</p>
+
+    <h2>13. Erottavuus</h2>
+    <p>Jos jokin näiden ehtojen määräys todetaan pätemättömäksi tai täytäntöönpanokelvottomaksi, muut määräykset pysyvät täysimääräisesti voimassa.</p>
+
+    <div class="contact">
+      <p>Kysymyksiä? Ota yhteyttä: <a href="mailto:support@sagrofit.com">support@sagrofit.com</a></p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SUOMI — TIETOSUOJAKÄYTÄNTÖ                                      -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="content" id="fi-pp">
     <h1>Tietosuojakäytäntö</h1>
     <p class="updated">Päivitetty: huhtikuu 2026</p>
 
@@ -220,7 +274,8 @@
     </div>
 
     <h2>Mitä keräämme</h2>
-    <p>Emme kerää mitään. SagroFit toimii täysin offline-tilassa. Sovellus ei vaadi rekisteröitymistä, ei lähetä dataa palvelimille eikä kerää analytiikkaa.</p>
+    <p>Emme kerää mitään dataa. Emme kerää henkilötietoja, tunnistetietoja, käyttödataa, laitetietoja tai analytiikkadataa. SagroFit toimii täysin offline-tilassa. Sovellus ei vaadi rekisteröitymistä eikä dataa lähetetä palvelimille.</p>
+    <p>Koska emme kerää tai käsittele henkilötietoja, GDPR:n velvoitteet eivät koske Sagro Oy:tä tämän sovelluksen osalta.</p>
 
     <h2>Datasi pysyy laitteellasi</h2>
     <ul class="check-list">
@@ -232,33 +287,52 @@
 
     <h2>Kolmannen osapuolen palvelut</h2>
     <p>SagroFitin ilmaisversio ei käytä kolmannen osapuolen analytiikka-, mainonta- tai seurantapalveluja.</p>
+    <p>Huomaa, että sovelluskauppa tai jakelualusta, jolta latasit SagroFitin, saattaa kerätä anonyymeja käyttötilastoja ja kaatumisraportteja osana tavanomaista palveluaan. Tämän datan kerää alusta, ei Sagro Oy. Meillä ei ole pääsyä kolmansien osapuolten keräämiin tietoihin emmekä hallitse niitä. Katso lisätietoja kyseisen alustan tietosuojakäytännöstä.</p>
 
-    <h2>Datan vienti</h2>
-    <p>Voit viedä oman datasi koska tahansa Asetukset → Vie-toiminnolla. Viety tiedosto tallennetaan laitteellesi eikä sitä koskaan lähetetä meille tai kolmansille osapuolille.</p>
+    <h2>Datan vienti ja vastuu</h2>
+    <p>Voit viedä oman datasi koska tahansa Asetukset → Vie-toiminnolla. Viety tiedosto tallennetaan laitteellesi eikä sitä koskaan lähetetä meille tai kolmansille osapuolille. Olet vastuussa datasi varmuuskopioinnista. Emme ole vastuussa datan häviämisestä sovelluksen poistamisen, laitevian tai muiden syiden seurauksena.</p>
+
+    <h2>Datan säilytys ja poistaminen</h2>
+    <p>Kaikki sovelluksessa luotu data tallennetaan laitteesi sisäiseen muistiin. Tämä data poistetaan, jos poistat sovelluksen tai tyhjennät sen datan laitteesi asetuksista. Meillä ei ole mahdollisuutta palauttaa tai käyttää dataasi sen poistamisen jälkeen.</p>
 
     <h2>Lapset</h2>
-    <p>SagroFit ei kerää tietoja alle 13-vuotiailta. Koska emme kerää tietoja keneltäkään, ei kerättävää ole.</p>
+    <p>SagroFit on tarkoitettu 13-vuotiaille ja sitä vanhemmille. Alle 18-vuotiaiden tulisi käyttää sovellusta vanhemman tai huoltajan valvonnassa. Koska emme kerää tietoja keneltäkään, ei kerättävää ole.</p>
 
     <h2>Muutokset tähän käytäntöön</h2>
-    <p>Jos päivitämme tätä käytäntöä, merkitsemme uuden päivämäärän sivun yläosaan. Sovelluksen käyttö muutosten jälkeen tarkoittaa uuden käytännön hyväksymistä.</p>
+    <p>Jos päivitämme tätä käytäntöä, merkitsemme uuden päivämäärän sivun yläosaan. Jos lisäämme tulevaisuudessa valinnaisia verkko-ominaisuuksia, tätä käytäntöä päivitetään ennen niiden käyttöönottoa.</p>
 
     <div class="contact">
       <p>Kysymyksiä? Ota yhteyttä: <a href="mailto:support@sagrofit.com">support@sagrofit.com</a></p>
     </div>
   </div>
 
-  <footer>
-    &copy; 2026 Sagro Oy · SagroFit
-  </footer>
+  <footer>&copy; 2026 Sagro Oy · SagroFit</footer>
 
 </div>
 
 <script>
-  function setLang(lang) {
-    document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
-    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
-    document.getElementById('content-' + lang).classList.add('active');
-    event.target.classList.add('active');
+  var currentLang = 'en';
+  var currentTab = 'tos';
+
+  function setLang(lang, e) {
+    currentLang = lang;
+    document.querySelectorAll('.lang-btn').forEach(function(b) { b.classList.remove('active'); });
+    e.target.classList.add('active');
+    showContent();
+  }
+
+  function setTab(tab, e) {
+    currentTab = tab;
+    document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
+    e.target.classList.add('active');
+    showContent();
+  }
+
+  function showContent() {
+    document.querySelectorAll('.content').forEach(function(c) { c.classList.remove('active'); });
+    var id = currentLang + '-' + currentTab;
+    var el = document.getElementById(id);
+    if (el) el.classList.add('active');
   }
 </script>
 
